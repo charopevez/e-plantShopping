@@ -348,14 +348,7 @@ function ProductList(props) {
             {" "}
             <a href="#" onClick={(e) => handleCartClick(e)} style={styleA}>
               <h1 className="cart">
-                <label
-                  style={{
-                    zIndex: 1,
-                    position: "fixed",
-                    fontSize: "1.5rem",
-                    cursor: "pointer",
-                  }}
-                >
+                <label class="cart_quantity_count">
                   {totalItems()}
                 </label>
                 <svg
